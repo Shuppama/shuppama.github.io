@@ -22,6 +22,28 @@ body {
     text-align: center;
     margin-right: 150px;
     margin-left: 150px;
+    border-bottom: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.content {
+    background-color: white;
+    border: 2px solid black;
+    border-top: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-align: left;
+    padding-right: 500px;
+}
+
+#imageDodecagon {
+    margin-top: -175px;
+    padding-left: 750px;
 }
 
 .nav {
