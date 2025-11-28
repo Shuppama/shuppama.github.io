@@ -22,6 +22,24 @@ body {
     text-align: center;
     margin-right: 150px;
     margin-left: 150px;
+    border-bottom: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.content {
+    background-color: white;
+    border: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+    padding: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: left;
+    padding-right: 300px;
+    border-bottom: 2px solid black; /* remover quando adicionar mais conteudo, adicionar na ultima div de todo o conteudo */
+    border-bottom-left-radius: 5px; /* remover quando adicionar mais conteudo, adicionar na ultima div de todo o conteudo */
+    border-bottom-right-radius: 5px; /* remover quando adicionar mais conteudo, adicionar na ultima div de todo o conteudo */
 }
 
 .nav {
