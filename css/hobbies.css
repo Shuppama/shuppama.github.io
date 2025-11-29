@@ -1,9 +1,9 @@
 h1 {
     color: rgb(0, 0, 0);
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
-    font-family: fantasy;
-    font: copperplate;
+    font-family: sans-serif;
+    font: helvetica;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -11,6 +11,8 @@ h1 {
 body {
     font-family: sans-serif;
     background-color: cornflowerblue;
+    background-image: url("../files/images/background.png");
+    background-repeat: repeat;
     font-weight: 500;
 }
 
@@ -20,8 +22,6 @@ body {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    margin-right: 150px;
-    margin-left: 150px;
     border-bottom: none;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -33,10 +33,23 @@ body {
     border-top: none;
     border-bottom: none;
     padding: 20px;
-    margin-right: 150px;
-    margin-left: 150px;
+    text-align: left;
+}
+
+#content1 {
+    background-color: white;
+    border: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+    padding: 20px;
     text-align: left;
     padding-right: 300px;
+}
+
+#content2 {
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 300px;
     border-bottom: 2px solid black; /* remover quando adicionar mais conteudo, adicionar na ultima div de todo o conteudo */
     border-bottom-left-radius: 5px; /* remover quando adicionar mais conteudo, adicionar na ultima div de todo o conteudo */
     border-bottom-right-radius: 5px; /* remover quando adicionar mais conteudo, adicionar na ultima div de todo o conteudo */
@@ -50,13 +63,11 @@ body {
     border: 2px black solid;
     padding: 5px;
     margin-bottom: 5px;
-    margin-right: 150px;
-    margin-left: 150px;
 }
 
 #home_link_button {
     padding: 5px;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -68,7 +79,7 @@ body {
 
 #hobbies_link_button {
     padding: 5px;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -78,14 +89,38 @@ body {
     background-color: lightgray;
 }
 
-#contact_link_button {
+#socials_link_button {
     padding: 5px;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-#contact_link_button:hover {
+#socials_link_button:hover {
+    background-color: lightgray;
+}
+
+#portfolio_link_button {
+    padding: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#portfolio_link_button:hover {
+    background-color: lightgray;
+}
+
+#daily_link_button {
+    padding: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#daily_link_button:hover {
     background-color: lightgray;
 }
